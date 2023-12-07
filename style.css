@@ -36,6 +36,21 @@ body {
     letter-spacing: -5px;
   }
   
+  .sidenav button {
+    font-family: "Poppins";
+    color: #818181;
+    padding: 9px 25px;
+    background-color: rgba(36, 129, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+  .sidenav button:hover {
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+
   .sidenav a:hover {
     color: #f1f1f1;
   }
